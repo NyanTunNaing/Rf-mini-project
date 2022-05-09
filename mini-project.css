@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --color--main: rgb(250, 167, 181);
+  --color--sub: skyblue;
+}
+
+.main-div {
+  background-image: url(./images/viber_image_2022-05-07_21-02-42-192.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-div1 {
+  background-image: url(./images/viber_image_2022-05-07_21-02-43-786.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.heading {
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  opacity: 0.8;
+  border: 1px solid rgb(201, 201, 201);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.heading h2 {
+  color: #fff;
+  padding-left: 20px;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+.heading h2 span {
+  color: var(--color--main);
+}
+
+.main,
+.main1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main1{
+  height: 90vh;
+}
+
+.main-content,
+.main-content1 {
+  width: 35%;
+}
+
+.main-content h2 {
+  font-size: 23px;
+  color: var(--color--main);
+  text-align: center;
+}
+
+.main-content1 h2 {
+  font-size: 23px;
+  color: #fff;
+  text-align: center;
+}
+
+.main-content h2::after,
+.main-content1 h2::after {
+  content: '';
+  margin: auto;
+  display: block;
+  width: 200px;
+  height: 3px;
+  background-color: var(--color--main);
+}
+
+.main-content span {
+  color: var(--color--sub);
+}
+
+.main-content1 span {
+  color: var(--color--main);
+}
+
+.card,
+.card1 {
+  width: 65%;
+  height: 75vh;
+}
+
+.card1 {
+  height: 80vh;
+}
+
+.card h3,
+.card1 h3 {
+  position: relative;
+  top: 23px;
+  left: 10px;
+  width: 250px;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: 700;
+  color: #fff;
+  background-color: var(--color--main);
+  z-index: 1;
+}
+
+.card1 h3 {
+  background-color: #000;
+  border: 2px solid var(--color--main);
+}
+
+.form,
+.form1 {
+  width: 80%;
+  background-color: var(--color--sub);
+  border-radius: 10px;
+  height: 100%;
+}
+
+.form1 {
+  background-color: #000;
+  border: 2px solid var(--color--main);
+  opacity: 0.7;
+  color: #fff;
+}
+
+.form-wrapper {
+  width: 60%;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.form-field {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+input,
+textarea {
+  border-radius: 5px;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+input[type='date'],
+input[type='password'],
+select,
+textarea {
+  width: 230px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.radio-div {
+  display: flex;
+  width: 230px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.form-btns {
+  margin-top: 20px;
+  display: flex;
+  gap: 70px;
+}
+
+.btn,
+.btn1 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  background-color: var(--color--main);
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.btn1 {
+  background-color: #000;
+  opacity: 1;
+  border: 2px solid var(--color--main);
+}
